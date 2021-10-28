@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Estilo2.css">
+    <title>HTML 2.0 - CSS</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="jpg/night.jpg" alt="computer">
+        </header>
+        <nav>
+            <ul>
+                <a href="Inicio.html">
+                    <li>Inicio</li>
+                </a>
+                <a href="parrafos.html">
+                    <li>Párrafos</li>
+                </a>
+                <a href="enlaces.html">
+                    <li>Enlaces</li>
+                </a>
+                <a href="tablas.html">
+                    <li>Tablas</li>
+                </a>
+                <a href="listas.html">
+                    <li>Listas</li>
+                </a>
+                <a href="formu.html">
+                    <li>Formularios</li>
+                </a>
+                <a href="multimedia.html">
+                    <li>Multimedia</li>
+                </a>
+                <a href="formhtml5.html">
+                    <li>Form Html 5</li>
+                </a>
+            </ul>
+            <div class="cb"></div>
+        </nav>
+        <div id="principal">
+            <div id="contenido">
+                <div id="tablas" class="left">
+                    <h1 class="titulo">Tablas</h1>
+                    <p class="respect">Las tablas se diseñan con <span class="especial">table</span>,<span
+                            class="especial">tr</span>,<span class="especial">th</span>,<span
+                            class="especial">td</span>.
+                    </p>
+                    <div id="tabla1" class="respeto">
+                        <h2>Tabla default:</h2>
+                        <table border="1">
+                            <thead>
+                                <tr>
+                                    <th>Ingredientes<sb< /th>
+                                    <th>Beneficios</th>
+                                    <th>Vendedor</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Jamón ibérico</td>
+                                    <td>24$</td>
+                                    <td>Associated British Foods</td>
+                                </tr>
+                                <tr>
+                                    <td>Manzanas</td>
+                                    <td>9$</td>
+                                    <td>Alimentos Diez Sl</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div id="contenido2" class="respeto">
+                <div id="tablas2">
+                    <h2>Tabla combinación de celdas:</h2>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>JUEGO</th>
+                                <th>COMIDA</th>
+                                <th>SERIES</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="hcolor">
+                                <td class="respeto" colspan="2">Overcooked</td>
+                                <td rowspan="2">One Piece</td>
+                            </tr>
+                            <tr class="hcolor">
+                                <td>Saw</td>
+                                <td>Chocolate</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div id="tablas3" class="newparrafo">
+                    <h2>Tabla par e impar:</h2>
+                    <table border="1">
+                        <thead>
+                            <tr>
+                                <th>PlayStation<sb< /th>
+                                <th>Xbox</th>
+                                <th>PC</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>God Of War</td>
+                                <td>Halo</td>
+                                <td>Undertale</td>
+                            </tr>
+                            <tr>
+                                <td>Ratchet and Clank</td>
+                                <td>Quantum Break</td>
+                                <td>World of Warcraft</td>
+                            </tr>
+                            <tr>
+                                <td>Uncharted</td>
+                                <td>Gear of Wars 4</td>
+                                <td>Los Sims</td>
+                            </tr>
+                            <tr>
+                                <td>Mortal Kombat</td>
+                                <td>Forza Motorsport 7</td>
+                                <td>Doki Doki Literature</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div id="contenidot" class="respeto">
+                <div id="horario" class="newparrafo, separacion">
+                    <h2>HORARIO:</h2>
+                    <table>
+                        <thead>
+                            <tr class="fb, hcolor">
+                                <th colspan="8" class="text-azulo, respeto"><strong>S1DAW</strong></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="fb, hcolor">
+                                <td><strong class="hcolor">/~\</strong></td>
+                                <td>Lunes</td>
+                                <td>Martes</td>
+                                <td>Miercoles</td>
+                                <td>Jueves</td>
+                                <td>Viernes</td>
+                            </tr>
+                            <tr>
+                                <td class="fb, hcolor"><strong>8:15<br>9:10</strong></td>
+                                <td class="fol">FOL<br>Prud. Ga, Es<br>(1 B-301)<br>FOL</td>
+                                <td class="ent">ENDE<br>Polo Or, Ed<br>(1 B-301)<br>ENDE</td>
+                                <td class="bdd" rowspan="2">BDD<br>Bern. Be, Cr<br>(1 B-301)<br>BDD</td>
+                                <td class="ing">ING<br>Guti Sa, JoÁn<br>(1 B-301)<br>ING</td>
+                                <td class="lmsg" rowspan="2">LMSG<br>Puli. Mo, FrJo<br>(1 B-301)<br>LMSG</td>
+                            </tr>
+                            <tr>
+                                <td class="fb, hcolor"><strong>9:10<br>10:05</strong></td>
+                                <td class="sisi" rowspan="2">SISI<br>Mart Ru, To<br>(1 B-301)<br>SISI</td>
+                                <td class="ing">ING<br>Guti Sa, JoÁn<br>(1 B-301)<br>ING</td>
+                                <td class="fol">FOL<br>Prud. Ga, Es<br>(1 B-301)<br>FOL</td>
+                            </tr>
+                            <tr>
+                                <td class="fb, hcolor"><strong>10:05<br>11:00</strong></td>
+                                <td class="fol">FOL<br>Prud. Ga, Es<br>(1 B-301)<br>FOL</td>
+                                <td class="ent">ENDE<br>Polo Or, Ed<br>(1 B-301)<br>ENDE</td>
+                                <td class="sisi">SISI<br>Mart Ru, To<br>(1 B-301)<br>SISI</td>
+                                <td class="sisi">SISI<br>Mart Ru, To<br>(1 B-301)<br>SISI</td>
+                            </tr>
+                            <tr class="fb">
+                                <td></td>
+                                <td colspan="7" class="text-azulo, respeto, hcolor"><strong
+                                        class="hcolor">recreo</strong></td>
+                            </tr>
+                            <tr>
+                                <td class="fb, hcolor"><strong>11:30<br>12:25</strong></td>
+                                <td class="ent">ENDE<br>Polo Or, Ed<br>(1 B-301)<br>ENDE</td>
+                                <td class="prog">PROG<br>Mart Ca, JoJa<br>(1 B-301)<br>PROG</td>
+                                </td>
+                                <td class="prog" rowspan="2">PROG<br>Mart Ca, JoJa<br>(1 B-301)<br>PROG</td>
+                                <td class="sisi">SISI<br>Mart Ru, To<br>(1 B-301)<br>SISI</td>
+                                <td class="sisi">SISI<br>Mart Ru, To<br>(1 B-301)<br>SISI</td>
+                            </tr>
+                            <tr>
+                                <td class="fb, hcolor"><strong>12:25<br>13:20</strong></td>
+                                <td class="bdd" rowspan="2">BDD<br>Bern. Be, Cr<br>(1 B-301)<br>BDD</td>
+                                <td class="bdd" rowspan="2">BDD<br>Bern. Be, Cr<br>(1 B-301)<br>BDD</td>
+                                <td class="lmsg" rowspan="2">LMSG<br>Puli. Mo, FrJo<br>(1 B-301)<br>LMSG</td>
+                                <td class="prog" rowspan="2">PROG<br>Mart Ca, JoJa<br>(1 B-301)<br>PROG</td>
+                            </tr>
+                            <tr>
+                                <td class="fb, hcolor"><strong>13:20<br>14:15</strong></td>
+                                <td class="fol">FOL<br>Prud. Ga, Es<br>(1 B-301)<br>FOL</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>
+            STROWBLACK - &copy; 2021 Azarquiel
+        </footer>
+    </div>
+</body>
+
+</html>

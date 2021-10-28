@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Estilo2.css">
+    <title>HTML 2.0 - CSS</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="jpg/night.jpg" alt="computer">
+        </header>
+        <nav>
+            <ul>
+                <a href="Inicio.html">
+                    <li>Inicio</li>
+                </a>
+                <a href="parrafos.html">
+                    <li>Párrafos</li>
+                </a>
+                <a href="enlaces.html">
+                    <li>Enlaces</li>
+                </a>
+                <a href="tablas.html">
+                    <li>Tablas</li>
+                </a>
+                <a href="listas.html">
+                    <li>Listas</li>
+                </a>
+                <a href="formu.html">
+                    <li>Formularios</li>
+                </a>
+                <a href="multimedia.html">
+                    <li>Multimedia</li>
+                </a>
+                <a href="formhtml5.html">
+                    <li>Form Html 5</li>
+                </a>
+            </ul>
+            <div class="cb"></div>
+        </nav>
+        <div id="principal">
+            <h1 class="titulo">Multimedia</h1>
+            <p class="respeto1">Para insertar videos y audios se usan las etiquetas <span class="especial">video</span>
+                (<span class="especial2">autoplay</span>, <span class="especial2">control</span>, <span
+                    class="especial2">muted</span>, <span class="especial2">source</span>, <span
+                    class="especial2">width</span> y <span class="especial2">height</span>) y <span
+                    class="especial">audio</span> (<span class="especial2">autoplay</span> y <span
+                    class="especial2">control</span>). Los videos pueden <span class="respetox">mp4</span>, <span
+                    class="respetox">ogg</span> y <span class="respetox">webm</span> mientras que para audio son <span
+                    class="respetox">mpeg</span>, <span class="respetox">ogv</span> y <span class="respetox">wav</span>.
+            </p>
+            <div id="contenido">
+                <div id="video1">
+                    <h2 class="lista">Video</h2>
+                    <video width="440" height="360" autoplay controls muted>
+                        <source src="resource/mp4f.mp4" type="video/mp4">
+                        <source src="resource/ogvf.ogv" type="video/ogg">
+                        <source src="resource/webmf.webm" type="video/webm">
+                    </video>
+                </div>
+            </div>
+            <div id="contenido2">
+                <div id="video2">
+                    <h2 class="lista">Presentación</h2>
+                    <video class="izq" width="440" height="360" controls>
+                        <source src="resource/mp4presentacion.mp4" type="video/mp4">
+                        <source src="resource/ogvpresentacion.ogv" type="video/ogg">
+                        <source src="resource/webmpresentacion.webm" type="video/webm">
+                    </video>               
+                 </div>
+            </div>
+            <div id="contenidonuevo">
+                <div id="audio1">
+                    <h2 class="lista">Audio</h2>
+                    <audio controls autoplay>
+                        <source src="resource/mpeg - Mr Blue Sky.mp3" type="audio/mpeg">
+                        <source src="resource/ogg-Mr-Blue-Sky.ogg" type="audio/ogg">
+                        <source src="resource/wavf.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div id="audio2">
+                    <h2 class="lista">Audio de presentación</h2>
+                    <audio  controls>
+                        <source src="resource/mpegmultiaudio.mp3" type="audio/mpeg">
+                        <source src="resource/oggmultiaudio.ogg" type="audio/ogg">
+                        <source src="resource/wavmultiaudio.wav" type="audio/wav">
+                    </audio>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>
+            STROWBLACK - &copy; 2021 Azarquiel
+        </footer>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Estilo2.css">
+    <title>HTML 2.0 - CSS</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <img src="jpg/night.jpg" alt="computer">
+        </header>
+        <nav>
+            <ul>
+                <a href="Inicio.html">
+                    <li>Inicio</li>
+                </a>
+                <a href="parrafos.html">
+                    <li>Párrafos</li>
+                </a>
+                <a href="enlaces.html">
+                    <li>Enlaces</li>
+                </a>
+                <a href="tablas.html">
+                    <li>Tablas</li>
+                </a>
+                <a href="listas.html">
+                    <li>Listas</li>
+                </a>
+                <a href="formu.html">
+                    <li>Formularios</li>
+                </a>
+                <a href="multimedia.html">
+                    <li>Multimedia</li>
+                </a>
+                <a href="formhtml5.html">
+                    <li>Form Html 5</li>
+                </a>
+            </ul>
+            <div class="cb"></div>
+        </nav>
+        <div id="principal" >
+            <div id="contenido" >
+                <h1 class="titulo">Formularios</h1>
+                <div id="fomu1" class="respect">
+                    <p>Los formularios se realizan con las etiquetas: <span class="especial">form</span>(<span
+                            class="especial2">method:get</span> y <span class="especial2">method:post</span> ), <span
+                            class="especial">input</span>( <span class="especial2">input:</span> y <span
+                            class="especial2">input[type=]</span>),<span class="especial">fieldset</span>,<span
+                            class="especial">legend</span>.</p>
+                    <p class="lista">Formulario normal:</p>
+                    <form action="http://pipasjourney.com/compartido/datos.php" method="get">
+                        <fieldset id="caja1">
+                            <legend>Log In</legend>
+                            <p><input type="text" placeholder="Name"></p>
+                            <p><input type="password" name="password" placeholder="Password"></p>
+                            <div id="subcaja1">
+                                <textarea name="comentarios" cols="25" rows="10" placeholder="Escribe algo..."></textarea>
+                            </div>
+                            <br>
+                            <div id="subcaja2">
+                                <textarea name="comentarios2" cols="25" rows="10" placeholder="LOL"></textarea>
+                            </div>
+                            <p><input type="hidden" name="secreto" value="kk"></p>
+                            <p><input type="submit" value="Send"></p>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div id="contenido2">
+                <div id="formu2" class="respect, newparrafo1">
+                    <p class="lista">Formulario grande:</p>
+                    <form action="" method="get">
+                        <fieldset id="caja2">
+                            <legend>Formulario variado</legend>
+                            <p>Consola:
+                                <select name="consola">
+                                    <option value="1">PS4</option>
+                                    <option value="2">XboxOne</option>
+                                    <option value="3">PC</option>
+                                    <option value="4">NintendoSwitch</option>
+                                </select>
+                            </p>
+                            <p>Dulces:
+                                <select name="dulces" multiple>
+                                    <option value="1">Chocolate</option>
+                                    <option value="2">Palomitas dulces</option>
+                                    <option value="3">Caramelo</option>
+                                    <option value="4">Helado</option>
+                                </select>
+                            </p>
+                            <fieldset>
+                                <legend>Hobbys:</legend>
+                                <input type="checkbox" name="Dibujar">Dibujar <br>
+                                <input type="checkbox" name="Comer">Comer <br>
+                                <input type="checkbox" name="Jugar">Jugar <br>
+                            </fieldset>
+                            <fieldset>
+                                <legend>Sexo:</legend>
+                                <input type="radio" id="lo" value="hombre" name="sexo">Hombre<br>
+                                <input type="radio" value="mujer" name="sexo">Mujer<br>
+                                <input type="radio" value="helicoptero apache" name="sexo">Helicoptero apache<br>
+                            </fieldset>
+                            <p><input type="reset" value="Reset"> <input type="submit" value="Send"> </p>
+                        </fieldset>
+                        <fieldset id="search">
+                            <p><input type="search" name="search" placeholder="Search..."></p>
+                        </fieldset>
+                        <fieldset id="search2">
+                            <p><input type="search" name="search" placeholder="Search..."></p>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <div class="cb"></div>
+        </div>
+        <footer>
+            STROWBLACK - &copy; 2021 Azarquiel
+        </footer>
+    </div>
+</body>
+
+</html>

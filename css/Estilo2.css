@@ -1,0 +1,380 @@
+body {
+    margin: 0;
+    background-image: url(../jpg/77420df3f9e33db5b79ee25455d3340e.png)
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgb(45, 194, 8);
+}
+header img{
+    width: 100%;
+    height: 150px;
+}
+#Home img{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 90%;
+}
+#Home2 img{
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 90%;
+}
+#contenido {
+    width: 50%;
+    padding-bottom: 30px;
+    float: left;
+    color: greenyellow;
+}
+#contenido2{
+    width: 50%;
+    padding-bottom: 30px;
+    float: left;
+    color: greenyellow;
+}
+#contenidot{
+    color: greenyellow;
+}
+#Home{
+    text-align: center;
+    
+}
+#Home2{
+    text-align: center;
+
+}
+footer {
+    background-color: rgba(1, 6, 66, 0.699);
+    color:rgb(6, 170, 88);
+    font-size: 20px; 
+    text-align: center;
+    padding: 3px;
+}
+.cb {
+    clear: both;
+}
+nav{
+    width: 100%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+}
+nav ul , nav li {
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    list-style-type: none;
+    text-align: center;
+    color:rgb(45, 194, 8) ;
+    font-size: 10px;
+    border-radius: 10px;
+    border: solid 1px rgb(8, 18, 131);
+    box-shadow: 0 0 20px rgb(24, 37, 184);
+    padding: 8px;
+    margin: 4px auto;
+    width: 10.5%;
+    float: left;
+    background-color: rgb(41, 45, 49);
+}
+nav ul li:hover{
+    color: skyblue;
+    background-color: slateblue;
+}
+a{
+    text-decoration: none;
+}
+.text-azulo{
+    color:rgb(28, 65, 88);
+}
+#principal{
+    padding-top: 30px;
+    
+}
+small{
+    font-size: .7em;
+}
+.titulo{
+    color: crimson;
+    text-align: center;
+}
+.especial{
+    color: rgb(231, 20, 136);
+    font-size: 30px;
+}
+.respeto{
+    text-align: center;
+}
+.respetox{
+    text-align: center;
+    color: cadetblue;
+}
+.respect{
+    padding: 0 20px 0 20px;
+    font-size: 18px;
+}
+a:visited{
+    color: greenyellow;
+}
+a{
+    color: greenyellow;
+}
+.newparrafo{
+    padding-top: 48px;
+}
+.imgnormal{
+    height: 60px;
+    width: 60px;
+    float: right;
+}
+.newparrafo2{
+    padding-top: 60px;
+}
+#tablas3 table{
+    width: 80%;
+    margin: 0 auto;
+}
+#tablas2 table{
+    width: 80%;
+    margin: 0 auto;
+}
+table{
+    color: black;
+}
+#tabla1 table{
+    background-color: rgb(29, 82, 180);
+    margin: 0 auto;
+}
+#horario table{
+    margin: 0 auto;
+}
+#tabla1 table th{
+    background-color: blueviolet;
+}
+#tabla1 table td{
+    background-color: rgb(119, 226, 226);
+}
+#tablas3 table{
+    background-color: forestgreen;
+}
+#tablas3 th {
+    background-color: rgb(11, 53, 11);
+}
+#tablas3 table tr:nth-child(odd) td{
+    background-color: cornflowerblue;
+}
+#tablas3 table tr:nth-child(even) td{
+    background-color: rgb(240, 188, 56);
+}
+#tablas2 table, #tablas2 th{
+    background-color:lightcoral ;
+}
+#tablas2 td{
+    background-color: indigo;
+}
+#horario table, #horario th, #horario td{
+    border: solid 1px  black;
+}
+#horario table{
+    border-spacing: 2px;
+    background-color: #FFF6F6;
+}
+#horario th{
+    background-color: #F0F0F0;
+}
+.hcolor{
+    color: #15746C;
+}
+.fol{
+    background-color: #FFD135;
+}
+.ent{
+    background-color: #8080C0;
+}
+.bdd{
+    background-color: #81FF81;
+}
+.sisi{
+    background-color: #C9A0C8;
+}
+.ing{
+    background-color: #EFF0C8;
+}
+.prog{
+    background-color: #96DC96;
+}
+.lmsg{
+    background-color: #FE8081;
+}
+.fb{
+    background-color: #F0F0F0;
+}
+.lista{
+    color :cornflowerblue;
+    font-size: 22px;
+}
+#perzon2 li {
+    list-style-type: armenian;
+}
+#perzon2 li li {
+    list-style-type: upper-alpha;
+}
+#perzon2 li li li {
+    list-style-image: url(../jpg/pixil-frame-0\ \(9\).png);
+}
+#perzon1 li {
+    list-style: circle;
+}
+#perzon1 li li {
+    list-style: square;
+}
+#perzon1 li li li {
+    list-style: disc;
+}
+.newparrafo3{
+    padding-top: 114.5px;
+}
+#caja1{
+    border-color: chartreuse;
+}
+#caja1 ::placeholder {
+     color: blue; 
+}
+#caja1 input[type=text]{
+    background-color: rgb(210, 75, 236);
+    color: chartreuse;
+}
+#caja1 input[type=submit]{
+    background-color: cornflowerblue;
+    color: rgb(92, 11, 42);
+}
+#caja1 input[type=password]{
+    background-color: rgb(36, 169, 230);
+}
+#caja1 input[type=password]:focus{
+    background-color: rgb(193, 236, 75);
+}
+#caja1 input[type=text]:focus,#caja1 input[type=submit]:focus{
+    background-color: lightblue;
+    color: black;
+}
+#subcaja1 textarea{
+    background-color: rgb(51, 184, 11);
+    color: rgb(20, 129, 131);
+}
+#subcaja2 textarea{
+    background-color: rgb(240, 107, 46);
+    color: rgb(41, 192, 66);
+    width: 80px;
+    height: 80px;
+    transition: width 0.4s ease-in-out;
+    transition: heigth 0.4s ease-in-out;
+}
+#subcaja1 textarea:focus{
+    background-color: rgb(13, 71, 13);
+    color: crimson;
+}
+#subcaja1 textarea::placeholder{
+    color: rgb(240, 149, 29);
+}
+#subcaja2 textarea:focus{
+    background-color: rgb(123, 139, 34);
+    color: rgb(90, 20, 220);
+    width: 200px;
+    height: 200px;
+}
+#subcaja2 textarea::placeholder{
+    color: rgb(80, 71, 71);
+}
+#formu2 fieldset {
+    border-color: chartreuse;
+}
+#search ::placeholder {
+     color: rgb(0, 255, 0); 
+}
+#search2 ::placeholder { 
+    color: rgb(149, 10, 241); 
+}
+#search {
+    border-color: chartreuse;
+}
+#search input[type=search]{
+    background-image: url(../jpg/lupa.png);
+    background-position: 5px; 
+    background-repeat: no-repeat;
+    padding: 10px 0 10px 35px;
+}
+#search2 {
+    border-color: chartreuse;
+}
+#search2 input[type=search]{
+    width: 130px;
+    background-image: url(../jpg/lupa.png);
+    background-position: 5px; 
+    background-repeat: no-repeat;
+    padding: 10px 0 10px 35px;
+    transition: width 0.4s ease-in-out;
+}
+#search2 input[type=search]:focus{
+    width: 100%;
+}
+#formu2 legend{
+    color: darkviolet;
+}
+.formc{
+    color: chartreuse;
+}
+.especial2{
+    color: rgb(20, 129, 231);
+    font-size: 25px;
+}
+.separacion{
+    padding-bottom: 25px;
+}
+.left{
+    text-align: left;
+}
+#video1{
+    width: 80%;
+    margin: 0 auto;
+}
+#audio1{
+    width: 50%;
+    margin: 0 auto;
+    float: left;
+    padding-left: 5%;
+}
+#video2{
+    width: 80%;
+    margin: 0 auto;
+}
+#audio2{
+    width: 45%;
+    margin: 0 auto;
+    float: right;
+}
+.der{
+    float: right;
+}
+.respeto1{
+    text-align: center;
+    color: greenyellow;
+}
+#contenido{
+    float: left;
+}
+#sigh input[type=tel]{
+    color:darkgreen;
+}
+#sigh {
+    border-color: greenyellow;
+}
+#sigh2 {
+    border-color: greenyellow;
+}
+#textInput{
+    width: 15px;
+}
+#numberplus{
+    width: 30px;
+}
