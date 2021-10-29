@@ -67,11 +67,11 @@ nav li{
     list-style-type: none;
     text-align: center;
     color:rgb(45, 194, 8) ;
-    font-size: 10px;
+    font-size: 18px;
     border-radius: 10px;
     border: solid 1px rgb(8, 18, 131);
     box-shadow: 0 0 20px rgb(24, 37, 184);
-    padding: 8px;
+    padding: 8px 8px 8px 8px;
     margin: 4px auto;
     width: 10.5%;
     float: left;
